@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'du_util'
+
+duu ARGV[0] || "."
